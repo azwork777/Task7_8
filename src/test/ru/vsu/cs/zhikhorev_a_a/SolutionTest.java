@@ -196,21 +196,21 @@ public class SolutionTest {
     @Test
     public void findMaxSumOfConsecutiveElementsTest26() {
 
-        Main.printArray(testTemplates.arr25);
+        Main.printArray(testTemplates.arr26);
         Assert.assertEquals(5, solution.findMaxSumOfConsecutiveElements(testTemplates.arr26));
     }
 
     @Test
     public void findMaxSumOfConsecutiveElementsTest27() {
 
-        Main.printArray(testTemplates.arr25);
+        Main.printArray(testTemplates.arr27);
         Assert.assertEquals(0, solution.findMaxSumOfConsecutiveElements(testTemplates.arr27));
     }
 
     @Test
     public void findMaxSumOfConsecutiveElementsTest28() {
 
-        Main.printArray(testTemplates.arr25);
+        Main.printArray(testTemplates.arr28);
         Assert.assertEquals(-5, solution.findMaxSumOfConsecutiveElements(testTemplates.arr28));
     }
 }
