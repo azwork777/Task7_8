@@ -9,7 +9,7 @@ public class Main {
         int[] array = new int[readLengthOfArray()];
         readArray(array);
         printArray(array);
-        printResults(Solution.findMaxSumOfConsecutiveElements(array));
+        printResults(SearchMaxSumOfConsecutiveElements.findMaxSumOfConsecutiveElements(array));
     }
 
     private static int readLengthOfArray() {

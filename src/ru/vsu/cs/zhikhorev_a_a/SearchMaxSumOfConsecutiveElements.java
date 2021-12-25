@@ -1,6 +1,6 @@
 package ru.vsu.cs.zhikhorev_a_a;
 
-public class Solution {
+public class SearchMaxSumOfConsecutiveElements {
 
     public static int findMaxSumOfConsecutiveElements(int[] arr) {
         int sumBeforeNegativeNumber = 0;
